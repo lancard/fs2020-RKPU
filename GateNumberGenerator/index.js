@@ -61,67 +61,16 @@ function writePngAndMaterial(text, filename, svgGeneratorFunction) {
 
 var gate = [
     "1",
-    "4",
-    "5",
-    "8",
-    "9",
-    "10",
-    "11",
-    "12",
-    "19",
-    "20",
-    "21",
-    "22",
-    "23",
-    "24",
-    "25",
-    "26",
-    "27",
-    "28",
-    "29",
-    "31",
-    "32",
-    "34",
-    "36",
-    "37",
-    "38",
-    "41",
-    "42",
-    "43",
-    "44",
-    "45",
-    "46",
-    "47",
-    "48",
-    "51",
-    "51L",
-    "51R",
-    "52",
-    "53",
-    "53L",
-    "53R",
-    "54",
-    "54L",
-    "54R",
-    "55",
-    "55L",
-    "55R",
-    "57",
-    "58",
-    "58",
-    "58L",
-    "58R",
-    "931",
-    "932",
-    "933"
+    "2",
+    "3",
+    "4"
 ];
 
-/*
 gate.forEach(e => {
-    writePng(e, e, getSpotNumberSvg);
+    writePngAndMaterial(e, e, getSpotNumberSvg);
 });
-*/
 
+/*
 writePngAndMaterial("↑G10", "UPG10", getBoxTextSvg);
 writePngAndMaterial("↖G11", "ULG11", getBoxTextSvg);
 writePngAndMaterial("↖G10", "ULG10", getBoxTextSvg);
@@ -136,3 +85,4 @@ writePngAndMaterial("↑G7", "UPG7", getBoxTextSvg);
 writePngAndMaterial("R↗", "RUR", getBoxTextSvg);
 writePngAndMaterial("R↑", "RUP", getBoxTextSvg);
 writePngAndMaterial("P↗", "PUR", getBoxTextSvg);
+*/
